@@ -17,8 +17,9 @@ const generadorExcusa = () => {
   return (`${elementoRandom(who)} ${elementoRandom(action)} ${elementoRandom(what)} ${elementoRandom(when)}`);
 };
 
+
 document.getElementById("excusa").innerHTML = generadorExcusa();
 
 document.getElementById("btn-generator").addEventListener("click", () => {
   document.getElementById("excusa").innerHTML = generadorExcusa();
-});
+});  
